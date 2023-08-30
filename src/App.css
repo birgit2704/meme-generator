@@ -18,7 +18,7 @@ body {
   margin: 20px auto;
 }
 .header-container {
-  background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+  background: linear-gradient(90deg, #278022 0%, #49d326 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -33,11 +33,13 @@ body {
   letter-spacing: -2.075px;
   margin-left: 10px;
   margin-right: auto;
+  text-shadow: 0 0 3px #222;
 }
 .header-desc {
   font-family: Inter;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
+  text-shadow: 0 0 3px #222;
 }
 
 .form-container {
@@ -71,8 +73,9 @@ input {
   font-weight: 700;
   letter-spacing: -1.6px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #711f8d 0%, #a818da 100%);
+  background: linear-gradient(135deg, #278022 0%, #49d326 100%);
   padding: 10px 11px;
+  text-shadow: 0 0 3px #222;
 }
 
 .meme-image {

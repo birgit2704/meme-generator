@@ -63,6 +63,7 @@ input {
   display: block;
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 30px;
   color: #fff;
   text-align: center;
   font-family: Karla;
@@ -74,6 +75,6 @@ input {
   padding: 10px 11px;
 }
 
-.meme-container {
-  padding: 0 36px 55px;
+.meme-image {
+  width: 100%;
 }

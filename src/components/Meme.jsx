@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactPdfPrint from "./ReactPdfPrint";
 
 function Meme() {
   const [meme, setMeme] = useState({
@@ -51,11 +52,7 @@ function Meme() {
       <button className="form-cta" onClick={getMemeImage}>
         Get a new meme image
       </button>
-      <div className="meme">
-        <img className="meme-image" src={meme.randomImage} alt="meme" />
-        <h2 className="meme-text top">{meme.topText}</h2>
-        <h2 className="meme-text bottom">{meme.bottomText}</h2>
-      </div>
+      <ReactPdfPrint meme={meme} />
     </div>
   );
 }
